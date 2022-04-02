@@ -223,6 +223,12 @@ footer h3{
     .header-section nav ul li{   
         margin-left: 70px; 
     }
+
+    .headline{  
+        margin-top: 50px;
+        font-size: 15px;    
+    }
+
     .search{
         margin-left: 32%;
     }
@@ -234,11 +240,15 @@ footer h3{
     .header-section nav ul li{   
         margin-left: 50px; 
     }
-    .search{
-        margin-left: 22%;
+
+    .headline{  
+        font-size: 15px;    
     }
 
-    
+    .search{
+       
+    }
+
     .Contact-form .form .Contact input{
         height: 40px;
         width: 350px;
@@ -250,12 +260,6 @@ footer h3{
     }    
 }
 
-
-@media screen and (max-width : 564px) { 
-    .header-section nav ul li{   
-        margin-left: 25px; 
-    }   
-}
 
 @media screen and (max-width : 564px) { 
     .header-section nav ul li{  
@@ -279,6 +283,12 @@ footer h3{
 
     .search{
         margin-left: 12%;
+    }
+
+    .Contact-form{
+       
+        height: 95vh;
+        
     }
 }
 
