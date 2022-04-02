@@ -33,7 +33,7 @@ ul{
 
 .header-section nav ul li{
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 140px;
     font-size: 30px;
     color: white;
 }
@@ -52,30 +52,30 @@ ul{
    
 }
 
-.button{
-    margin-left: 50px;
+.search{
+    margin-left: 150px;
     margin-top: 50px;
     display: flex;
     height: 40px;
     width: 60px;
 }
 
-.button button{
+.search button{
     font-size: 15px;
     padding: 3px;
     border-radius: 10px;
-    margin-left: 3px;
+    margin-left: 5px;
     
 }
 
-.button input{
+.search input{
     font-size: 15px;
     padding: 3px;
     border-radius: 10px;
-    padding: 5px;
+   
 }
 
-.button button:hover{
+.search button:hover{
     background-color: rgb(21, 26, 26);
     color: white;
 }
@@ -90,8 +90,7 @@ ul{
 }
 
 .infomation figure img{
-    margin-top: 30px;
-    margin-left: 90px;
+    margin: 20px;
     border-radius: 50%;
 }
 
@@ -117,12 +116,11 @@ ul{
     text-align: center;
     font-size: 45px;
     font: bold;
-    padding: 0px;
+    padding: 10px;
     color: blueviolet;
 }  
 
 .Contact-form .form {
-    padding: 70px;
     text-align: center;
 }
 
@@ -138,26 +136,28 @@ ul{
 
 .Contact-form .form .Contact input{
    height: 40px;
-   width: 50%;
+   width: 550px;
 }
-
-.Contact-form .form .Contact input::placeholder{
-   font-size: 20px;
- }
 
 .Contact-form .form .Contact textarea{
     height: 90px;
-    width: 50%;
-}
+    width: 550px;
+}   
+
+.Contact-form .form .Contact input::placeholder{
+   font-size: 20px;
+   padding: 10px;
+ }
 
 .Contact-form .form .Contact textarea::placeholder{
     font-size: 20px;
+    padding: 10px;
 }
 
 .submit input{ 
     color: brown;
     height: 40px;
-    width: 30%;
+    width: 300px;
     font-size: 20px;
     font: bold;
 }
@@ -179,22 +179,23 @@ footer h3{
     padding: 10px;
 }
 
-@media screen and (max-width : 1286px) {
+@media screen and (max-width : 1540px) {
     
     .header-section{
         display: block; 
         text-align: center;
     }
     ul{
-        margin-left: 20px;
+        margin-right: 100px;
     }
+   
     .headline{
-        margin-left: 7%;
-        margin-top: 30px;
+        
+        margin-top: 70px;
     }
-
-    .button{
-        margin-left: 40%;
+ 
+    .search{
+        margin-left: 42%;
     }
 
     .infomation{
@@ -206,67 +207,79 @@ footer h3{
     .infomation figure p{
         width: 300px;
         text-align: center;
-        margin-left: auto;
         font-size: 20px;
         line-height: 30px;
         font: bold;
     }
+
+    .infomation figure{
+        margin: auto;
+    }
 }
 
-@media screen and (max-width : 548px) {
+@media screen and (max-width : 932px) {
     
-    ul{
-        margin-left: 10px;
-    }
-    .header-section nav ul li{
-        margin-left: 20px;
-        font-size: 20px; 
-    }
     
-    .button{
-        margin-left: 55px;
+    .header-section nav ul li{   
+        margin-left: 70px; 
     }
-    .Contact-form .form .Contact{
-        margin: 30px 10px;
+    .search{
+        margin-left: 32%;
     }
-    .Contact-form .form .Contact label{
-        font-size: 20px;
-        margin-left: 0px;
-    }
-    .Contact-form .form .Contact input{
-        height: 20px;
-        width: 200px;
-    }
-    .Contact-form .form .Contact input::placeholder{
-        font-size: 13px;
-    }
-
-    .Contact-form{  
-        height: 75vh;
-
-    }
-         
+       
 }
 
-@media screen and (max-width : 464) {
-    .Contact-form .form .Contact label{
-        display: block;
-        padding: 10px;
-    } 
-    .Contact-form .form .Contact input{
-        height: 70px;
-        width: 200px;
-        margin-top: 25px;
+@media screen and (max-width : 649px) {
+
+    .header-section nav ul li{   
+        margin-left: 50px; 
     }
+    .search{
+        margin-left: 22%;
+    }
+
+    
+    .Contact-form .form .Contact input{
+        height: 40px;
+        width: 350px;
+    }
+ 
     .Contact-form .form .Contact textarea{
         height: 90px;
-        width: 50%;
+        width: 350px;
+    }    
+}
+
+
+@media screen and (max-width : 564px) { 
+    .header-section nav ul li{   
+        margin-left: 25px; 
+    }   
+}
+
+@media screen and (max-width : 564px) { 
+    .header-section nav ul li{  
+        margin-left: 15px;  
+        font-size: 23px; 
+    }   
+
+    .Contact-form .form .Contact input{
+        height: 40px;
+        width: 250px;
+    }
+ 
+    .Contact-form .form .Contact textarea{
+        height: 90px;
+        width: 250px;
+    }  
+
+    .submit input{
+        width: 200px; 
     }
 
-    .submit{
-        height: 20px;
-        width: 30px;
-        overflow: hidden;
+    .search{
+        margin-left: 12%;
     }
 }
+
 
